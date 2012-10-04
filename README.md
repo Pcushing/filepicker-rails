@@ -44,6 +44,7 @@ Full options list:
 * container - Where to show the file picker dialog can be "modal", "window" or the
 of an iframe on the page.
 * services - What services your users can upload to. Ex: "BOX, COMPUTER, FACEBOOK".
+* multiple - Set to 'true' if you'd like users to be able to upload multiple files.  NOTE that this requires then iterating over each file name in your controller to create each image such as <tt>params[:model_name][:file_attr_name].split(",").each { |file| @image = @user.project_images.create(file_url: file) }</tt>
 
 
 ### Displaying an image:

@@ -14,8 +14,8 @@ module Filepicker
           'data-fp-mimetypes' => options[:mimetypes],
 
           'data-fp-option-container' => options[:container],
-
-          'data-fp-option-multiple' => options[:multiple],
+          
+          'data-fp-option-multiple' => options[:multiple],  
 
           'data-fp-option-services' => Array(options[:services]).join(","),
         }
