@@ -26,8 +26,8 @@ module Filepicker
         image_tag(filepicker_image_url(url, options),
           width: options[:w],
           height: options[:h],
-
-          alt: options[:alt])
+          alt: options[:alt],
+          class: options[:class])
       end
 
       # w - Resize the image to this width.
